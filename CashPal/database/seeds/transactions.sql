@@ -45,3 +45,31 @@ INSERT INTO transactions(
     3,
     10
     );
+
+INSERT INTO transactions(
+    user_id, 
+    sender_id,
+    note,
+    amount,
+    was_successful
+    ) VALUES (
+    2, 
+    10, 
+    'Happy Birthday! Gramma loves you!', 
+    20.00, 
+    true
+    );
+
+INSERT INTO transactions(
+    user_id, 
+    sender_id,
+    note,
+    amount,
+    was_successful
+    ) VALUES (
+    2, 
+    10, 
+    'Happy Birthday from Gramma!', 
+    20.00, 
+    true
+    );
