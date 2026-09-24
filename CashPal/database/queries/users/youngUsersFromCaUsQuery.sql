@@ -4,3 +4,8 @@ SELECT COUNT(*)
 FROM users
 WHERE (country_code='CA' OR country_code='US') 
 AND age < 18 ;
+
+SELECT name, age, country_code
+FROM users
+WHERE country_code 
+IN ('US', 'CA', 'MX');
