@@ -12,4 +12,7 @@ CREATE TABLE transactions(
     was_successful BOOLEAN
 );
 
+CREATE INDEX user_id_recipent_id_idx 
+ON transactions(user_id, recipent_id);
+
 pragma table_info('transactions');
